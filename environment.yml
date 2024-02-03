@@ -1,0 +1,12 @@
+# Create a virtual environment with Conda
+
+name: gx_experiment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pyyaml
+  - pandas
+  - pip
+  - pip:
+    - great_expectations
